@@ -51,6 +51,33 @@ a {
     width: 100px;
     color: white;
     font-weight: bold;
-    background-color: rgb(43, 117, 255);
+    background-color: #3882f6;
     border: none;
+}
+
+.mid {
+    display: flex;    
+    justify-content: center;
+
+    flex-wrap: wrap;
+    margin: 25px;
+    gap: 100px;
+}
+
+h2 {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.box {
+    margin-top: -45px;
+    text-align: center;
+    width: 150px;
+}
+
+.boxed-image {
+    border: 3px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 14px;
 }
