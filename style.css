@@ -45,6 +45,10 @@ a {
     margin-right: 20px;
 }
 
+.right-content {
+    flex-shrink: 0;
+}
+
 .top-button {
     border-radius: 7px;
     height: 30px;
@@ -55,12 +59,12 @@ a {
     border: none;
 }
 
-.mid {
+.mid, .mid1 {
     display: flex;    
     justify-content: center;
-
+    height: 370px;
     flex-wrap: wrap;
-    margin: 25px;
+    margin: 25px 0 120px 0;
     gap: 100px;
 }
 
@@ -70,7 +74,7 @@ h2 {
 }
 
 .box {
-    margin-top: -45px;
+    margin-top: -95px;
     text-align: center;
     width: 150px;
 }
@@ -80,4 +84,28 @@ h2 {
     width: 150px;
     height: 150px;
     border-radius: 14px;
+}
+
+.mid1 {
+    background-color: #E5E7EB;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.quote {
+    width: 600px;
+    margin-bottom: -75px;
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.quote-by {
+    padding-right: 60px;
+    width: 600px;
+    text-align: end;
+    font-weight: bold;
+    font-size: 20px;
 }
