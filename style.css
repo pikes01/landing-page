@@ -3,7 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    max-width: 2000px;
+
 }
 
 a {
@@ -16,6 +16,7 @@ a {
     background-color: #1F2937;
     color: white;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     padding: 0 200px;
 }
@@ -25,6 +26,7 @@ a {
     padding-top: 20px;
     align-items: center;
     margin-bottom: 80px;
+    justify-content: center;
 }
 
 .hero {
@@ -42,11 +44,16 @@ a {
 }
 
 .left-content {
-    margin-right: 20px;
+    flex-basis: 50%;
 }
 
 .right-content {
+    flex-basis: 50%;
     flex-shrink: 0;
+}
+
+.right-content div {
+    margin-left: auto;
 }
 
 .top-button {
