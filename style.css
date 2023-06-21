@@ -10,6 +10,11 @@ li {
     text-decoration: none;
     color: white;
     display: inline;
+    cursor: pointer;
+}
+
+li:hover {
+    color:#3882F6;
 }
 
 .top{
@@ -28,12 +33,9 @@ li {
     margin-bottom: 80px;
 }
 
-
-
 .hero {
     font-size: 28px;
     font-weight: bold;
-    border: 1px solid white;
     flex: 1 0 0;
 }
 
@@ -41,7 +43,6 @@ li {
     text-align: end;
     font-size: 19px;
     max-width: 500px;
-    border: 1px solid white;
     height: 20px;
     flex: 0 0 auto;
 }
