@@ -19,15 +19,14 @@ li {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 0 200px;
+    padding: 10px 100px 0 100px;
+    flex-wrap: wrap;
 }
 
 .top1, .top2 {
     display: flex;
-    padding-top: 20px;
     align-items: center;
     margin-bottom: 80px;
-    justify-content: center;
 }
 
 .hero {
@@ -42,6 +41,7 @@ li {
 .nav {
     text-align: end;
     font-size: 19px;
+    flex-direction: column;
 }
 
 .left-content {
