@@ -34,9 +34,6 @@ li:hover {
     gap: 15%;
 }
 
-.top2 {
-}
-
 .hero {
     font-size: 28px;
     font-weight: bold;
@@ -72,6 +69,12 @@ li:hover {
     font-weight: bold;
     background-color: #3882f6;
     border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.top-button:hover {
+    box-shadow: 0 0 2px 2px white;
 }
 
 .mid, .mid1 {
@@ -108,8 +111,6 @@ h2 {
     flex-direction: column;
     margin-bottom: 10px;
 }
-
-@import url(https://fonts.googleapis.com/css?family=Abel:regular);
 
 .quote {
     width: 600px;
