@@ -31,6 +31,10 @@ li:hover {
     padding-top: 20px;
     align-items: center;
     margin-bottom: 80px;
+    gap: 15%;
+}
+
+.top2 {
 }
 
 .hero {
