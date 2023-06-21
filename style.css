@@ -3,7 +3,6 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 
 li {
@@ -20,28 +19,31 @@ li {
     justify-content: center;
     flex-direction: column;
     padding: 10px 100px 0 100px;
-    flex-wrap: wrap;
 }
 
 .top1, .top2 {
     display: flex;
+    padding-top: 20px;
     align-items: center;
     margin-bottom: 80px;
 }
 
+
+
 .hero {
     font-size: 28px;
     font-weight: bold;
-}
-
-.hero, .nav {
+    border: 1px solid white;
     flex: 1 0 0;
 }
 
 .nav {
     text-align: end;
     font-size: 19px;
-    flex-direction: column;
+    max-width: 500px;
+    border: 1px solid white;
+    height: 20px;
+    flex: 0 0 auto;
 }
 
 .left-content {
@@ -154,9 +156,8 @@ h2 {
 
 .footer1 {
     background-color: #1F2937;
-    height: 50px;
     color: white;
     text-align: center;
     word-spacing: 5px;
-    padding-top: 15px;
+    padding: 24px;
 }
