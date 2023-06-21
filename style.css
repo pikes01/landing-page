@@ -147,11 +147,6 @@ h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.footer-text h3{
-    font-weight: 900;
-    flex: 0 0 200px;
-}
-
 .footer-button {
     border-radius: 7px;
     height: 30px;
