@@ -84,6 +84,7 @@ li:hover {
     flex-wrap: wrap;
     margin: 25px 0 120px 0;
     gap: 100px;
+    width: 100%;
 }
 
 h2 {
@@ -134,7 +135,7 @@ h2 {
     align-items: center;
     margin: 100px auto;
     height: 150px;
-    width: 750px;
+    width: auto;
     background-color: #3882F6;
     color: white;
     padding: 0 100px;
