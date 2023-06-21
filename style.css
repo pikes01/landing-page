@@ -70,11 +70,11 @@ li:hover {
     background-color: #3882f6;
     border: none;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .top-button:hover {
-    box-shadow: 0 0 2px 2px white;
+    box-shadow: 0 0 1.5px 1.5px rgba(255, 255, 255, 0.845);
 }
 
 .mid, .mid1 {
@@ -149,6 +149,7 @@ h2 {
 
 .footer-text h3{
     font-weight: 900;
+    flex: 0 0 200px;
 }
 
 .footer-button {
