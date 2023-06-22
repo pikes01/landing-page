@@ -165,6 +165,13 @@ h2 {
     font-weight: bold;
     background-color: #3882f6;
     border: 2px solid white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.footer-button:hover {
+    background-color: #0a60eb;
+    border: 2px solid darkblue;
 }
 
 .footer1 {
