@@ -1,6 +1,7 @@
 body {
     margin: 0 0;
     display: flex;
+    overflow-x: hidden;
     flex-direction: column;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -24,6 +25,8 @@ li:hover {
     justify-content: center;
     flex-direction: column;
     padding: 10px 100px 0 100px;
+    height: auto;
+    max-height: 750px;
 }
 
 .top1, .top2 {
@@ -80,7 +83,8 @@ li:hover {
 .mid, .mid1 {
     display: flex;    
     justify-content: center;
-    height: 370px;
+    height: auto;
+    max-height: 1000px;
     flex-wrap: wrap;
     margin: 25px 0 120px 0;
     gap: 100px;
@@ -135,8 +139,8 @@ h2 {
     align-items: center;
     margin: 100px auto;
     height: 150px;
-    width: auto;
-    min-width: 500px;
+    max-width: 700px;
+    min-width: 400px;
     background-color: #3882F6;
     color: white;
     padding: 0 100px;
@@ -156,6 +160,13 @@ h2 {
     font-weight: bold;
     background-color: #3882f6;
     border: 2px solid white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.footer-button:hover {
+    background-color: #0a60eb;
+    border: 2px solid darkblue;
 }
 
 .footer1 {
