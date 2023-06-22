@@ -22,7 +22,6 @@ li:hover {
     background-color: #1F2937;
     color: white;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     padding: 10px 100px 0 100px;
     height: auto;
