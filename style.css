@@ -25,6 +25,8 @@ li:hover {
     justify-content: center;
     flex-direction: column;
     padding: 10px 100px 0 100px;
+    height: auto;
+    max-height: 750px;
 }
 
 .top1, .top2 {
@@ -81,7 +83,8 @@ li:hover {
 .mid, .mid1 {
     display: flex;    
     justify-content: center;
-    height: 370px;
+    height: auto;
+    max-height: 1000px;
     flex-wrap: wrap;
     margin: 25px 0 120px 0;
     gap: 100px;
