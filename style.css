@@ -6,6 +6,7 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
 li {
     text-decoration: none;
     color: white;
@@ -14,22 +15,22 @@ li {
 }
 
 .btn {
-    background-color: rgb(45, 67, 89);
+    background-color: #094d51;
     border: none;
     color: white;
     font-size: 16px;
     cursor: pointer;
     border-radius: 20px;
-    height: 30px;
+    height: 45px;
+    margin: 0 5px;
   }
 
 .top{
-    background-color: #1F2937;
+    background-color: #1f879e;
     color: white;
     display: flex;
     flex-direction: column;
     padding: 10px 100px 0 100px;
-    height: auto;
     max-height: 750px;
 }
 
@@ -42,9 +43,15 @@ li {
 }
 
 .hero {
-    font-size: 28px;
-    font-weight: bold;
+    font: 50px Monoton;
     flex: 1 0 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero:hover{
+    color: #2dd5b3;
+    transition: 0.3s;
 }
 
 .nav {
