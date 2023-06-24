@@ -36,14 +36,19 @@ li {
 .top1, .top2 {
     display: flex;
     padding-top: 20px;
-    margin-bottom: 80px;
     align-items: center;
     justify-content: space-around;
 }
 
+.top2 {
+    justify-content: center;
+    gap: 100px;
+    margin: 30px 0 80px 0;
+}
+
 .hero {
     font: 40px Monoton;
-    flex: 1 0 0;
+    flex: 1 0 25%;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -173,8 +178,9 @@ h2 {
 
 @media screen and (max-width:760px) {
     .top { text-align: center; align-items: center;}
-    .top1 { flex-wrap: wrap; margin-bottom: 10px; }
-    .nav { flex-basis:100%; min-width: 400px; padding-right: 50px;}
+    .top1 { flex-wrap: wrap;}
+    .nav { flex-basis:100%; min-width: 400px; padding-right: 50px; min-height: 50px;}
     .top2 { flex-wrap: wrap;  margin-top: -50px;}
     .left-content { flex-basis: 100%; padding-bottom: 20px; }
+    .right-content { margin-top: -90px; margin-bottom: -50px; }
   }
