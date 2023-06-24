@@ -1,13 +1,14 @@
 body {
     margin: 0 0;
     display: flex;
-    overflow-x: hidden;
     flex-direction: column;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
 li {
+    font-family: Rubik;
+    font-weight: bold;
     color: white;
     display: inline;
     cursor: pointer;
@@ -37,10 +38,11 @@ li {
     padding-top: 20px;
     margin-bottom: 80px;
     align-items: center;
+    justify-content: space-around;
 }
 
 .hero {
-    font: 30px Monoton;
+    font: 40px Monoton;
     flex: 1 0 0;
     cursor: pointer;
     transition: 0.3s;
@@ -55,11 +57,6 @@ li {
     font-size: 19px;
     max-width: 500px;
 }
-
-.top2{
-    justify-content: space-around;
-}
-
 
 .top-button {
     border-radius: 7px;
@@ -174,10 +171,10 @@ h2 {
     padding: 24px;
 }
 
-@media screen and (max-width:690px) {
+@media screen and (max-width:760px) {
     .top { text-align: center; align-items: center;}
     .top1 { flex-wrap: wrap; margin-bottom: 10px; }
     .nav { flex-basis:100%; min-width: 400px; padding-right: 50px;}
-    .top2 { flex-wrap: wrap;  }
+    .top2 { flex-wrap: wrap;  margin-top: -50px;}
     .left-content { flex-basis: 100%; padding-bottom: 20px; }
   }
