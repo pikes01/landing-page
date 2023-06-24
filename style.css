@@ -8,7 +8,6 @@ body {
 
 
 li {
-    text-decoration: none;
     color: white;
     display: inline;
     cursor: pointer;
@@ -31,19 +30,17 @@ li {
     display: flex;
     flex-direction: column;
     padding: 10px 100px 0 100px;
-    max-height: 750px;
 }
 
 .top1, .top2 {
     display: flex;
     padding-top: 20px;
-    align-items: center;
     margin-bottom: 80px;
-    gap: 15%;
+    align-items: center;
 }
 
 .hero {
-    font: 50px Monoton;
+    font: 30px Monoton;
     flex: 1 0 0;
     cursor: pointer;
     transition: 0.3s;
@@ -55,24 +52,14 @@ li {
 }
 
 .nav {
-    text-align: end;
     font-size: 19px;
     max-width: 500px;
-    flex: 0 0 auto;
 }
 
-.left-content {
-    flex-basis: 50%;
+.top2{
+    justify-content: space-around;
 }
 
-.right-content {
-    flex-basis: 50%;
-    flex-shrink: 0;
-}
-
-.right-content div {
-    margin-left: auto;
-}
 
 .top-button {
     border-radius: 7px;
@@ -186,3 +173,11 @@ h2 {
     word-spacing: 5px;
     padding: 24px;
 }
+
+@media screen and (max-width:690px) {
+    .top { text-align: center; align-items: center;}
+    .top1 { flex-wrap: wrap; margin-bottom: 10px; }
+    .nav { flex-basis:100%; min-width: 400px; padding-right: 50px;}
+    .top2 { flex-wrap: wrap;  }
+    .left-content { flex-basis: 100%; padding-bottom: 20px; }
+  }
