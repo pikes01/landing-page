@@ -1,6 +1,7 @@
 body {
     margin: 0 0;
     display: flex;
+    overflow-x: hidden;
     flex-direction: column;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -80,7 +81,7 @@ li {
     width: 100px;
     color: white;
     font-weight: bold;
-    background-color: #3882f6;
+    background-color: #1a5382;
     border: none;
     cursor: pointer;
     margin-top: 10px;
@@ -181,7 +182,7 @@ h2 {
 }
 
 .footer1 {
-    background-color: #1F2937;
+    background-color: #255a66;
     color: white;
     text-align: center;
     word-spacing: 5px;
@@ -192,7 +193,7 @@ h2 {
     .top { text-align: center; align-items: center;}
     .top1 { flex-wrap: wrap;}
     .nav { flex-basis:100%; min-width: 400px; padding-right: 50px; min-height: 50px;}
-    .top2 { flex-wrap: wrap;  margin-top: -50px;}
-    .left-content { flex-basis: 100%; padding-bottom: 20px; }
+    .top2 { flex-wrap: wrap;  margin-top: 0;}
+    .left-content { flex-basis: 100%; margin-top: -43px; padding-bottom: 20px; }
     .right-content { margin-top: -90px; margin-bottom: -50px; }
   }
