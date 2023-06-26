@@ -61,13 +61,13 @@ li {
     font-family: Monoton;
     font-size: 40px;
     flex: 1 0 25%;
-    cursor: pointer;
     transition: 0.3s;
 }
 
-.hero:hover{
+.pikes:hover{
     color: #2dd5b3;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .nav {
